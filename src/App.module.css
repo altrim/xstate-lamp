@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.switch {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 1.5rem;
+}
+
+.counter {
+  color: #1864ab;
+  font-variant-numeric: tabular-nums;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
